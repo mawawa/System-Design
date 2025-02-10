@@ -1,10 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link  rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.min.css}">
+
+    <title>Software Design</title>
 </head>
 <body>
+<h1 class="animate__animated animate__bounce d-flex justify-content-center mt-20rem">Welcome to Software Design</h1>
+<nav class=" animate__animated animate__backInDown navbar-dark bg-dark navbar navbar-expand-lg navbar-light bg-light
+container shadow-lg p-3 mb-5  rounded ">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul  class="animate__animated animate__fadeIn animate__delay-1s navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link active " th:href="@{/}">Home<span class="sr-only"></span></a>
+            </li>
+        </ul>
+        <span class="navbar-text">
+        </span>
+    </div>
+</nav>
+
+<div class="animate__animated animate__backInDown container shadow-lg p-3 mb-5 bg-white rounded ">
+    <h1>
+        Introduction
+    </h1>
+    <a th:href="@{documents/lecture1.pdf}">Lecture Notes</a>
+
+    <p>Software Design is  the process of transforming user
+    requirements into a suitable form, which helps the
+    programmer in software coding and implementation</p>
+
+    <p>During the software design phase, the design document is
+    produced based on the customer requirements as documented in the
+        <b>Software Requirements Specification</b> (SRS) document</p>
+    <p>
+        Hence software design aims to transform the SRS document
+        into a design document.
+    </p>
+
+    <p>The following items are <b>designed and documented  </b> during
+    the design phase:</p>
+    <ul>
+        <li>
+            The different modules required
+        </li>
+        <li>
+            the control relationships among the modules
+        </li>
+        <li>
+            The interfaces among the different modules
+        </li>
+        <li>
+            The Data structures among the different modules
+        </li>
+        <li>
+            The Algorithms that are required to implement the individual
+            modules.
+        </li>
+
+    </ul>
+    <br/>
+</div>
+
+<div class="animate__animated animate__backInDown container shadow-lg p-3 mb-5 bg-white rounded ">
+
+    <h2>Software Development Terminology</h2>
+    <dl>
+        <dt>Software Engineering</dt>
+        <dd>
+            software engineering encompasses the entire process
+            of designing, building and maintaining software systems.
+        </dd>
+        <dt>Software Design</dt>
+        <dd>This focuses on specifically the planning and
+        conceptualization of the software architecture.</dd>
+        <dt>Software Development</dt>
+        <dd>The refers to the act of writing code to implement
+        that design and bring the software to life.</dd>
+        <dt>Abstraction</dt>
+        <dd>this is simply means to hide the details to reduce
+        complexity and increase efficiency</dd>
+        <dt>Modularity</dt>
+        <dd>This means dividing the systems or project into smaller parts to reduce
+        complexity of the system of project.</dd>
+        <dt>Architecture</dt>
+        <dd>This means a technique to design a structure of something</dd>
+        <dt>Refinement</dt>
+        <dd>
+            this means to refine something to remove any impurities if present
+            and increase the quality.
+        </dd>
+        <dt>Pattern</dt>
+        <dd>
+            A Pattern simply means a repeated form of design which the same shape
+            is repeated several times to form a pattern.
+        </dd>
+        <dt>Information Hiding</dt>
+        <dd>Information hiding means to hide the information
+        so that it cannot be accessed by unwanted party.</dd>
+        <dt>Refactoring</dt>
+        <dd>Refactoring means reconstructing something in such a way that it does not
+        affect the behavior of any features.</dd>
+    </dl>
+</div>
+<div class="animate__animated animate__backInDown container shadow-lg p-3 mb-5 bg-white rounded ">
+    <h2>Design Objectives</h2>
+    The main objectives to software design are as followos
+    <ul>
+        <li>
+            <b>Correctness</b> - A good design should be correct, that is
+            it should implement all the functionalities of the system.
+        </li>
+        <li>
+            <b>Efficiency</b> - A good software design shold address the
+            resources in terms of times and cost optimization.
+        </li>
+        <li>
+            <b>Understandability</b> - A good software design should be easily
+            understandable, it should be modular, and all the modules be arranged in
+            layers.
+        </li>
+        <li>
+            <b>Flexibility</b> - A good software design should have the ability
+            to adapt and accommodate changes easily.
+        </li>
+        <li>
+            <b>Completeness</b> - A good software design should have all the components like
+            data structures, modules, external interfaces , etc...
+        </li>
+        <li>
+            <b>Maintainability</b> -  A good software design aims to create
+            a systems that is easy to understand, modify and maintain of time.
+        </li>
+    </ul>
+</div>
+<div class="animate__animated animate__backInDown container shadow-lg p-3 mb-5 bg-white rounded ">
+    <h2>design Problems</h2>
+    <h3>Maintainability</h3>
+    <p>
+        A good software design aims to create a system that is easy to understand
+    , modify, and maintain over time. This involves using modular and well
+    structured design principles. Maintainability in software and design also enables
+    developers to fix bugs, enhance features and adapt the software to changing
+    requirements without excessive effort of introducing new issues.
+    </p>
+
+    <h3>Ever-changing Software Requirements</h3>
+    <p>
+
+    </p>
+</div>
+
 
 </body>
 </html>

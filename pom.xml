@@ -10,7 +10,7 @@
 	</parent>
 
 	<groupId>com.limko</groupId>
-	<artifactId>System-Design</artifactId>
+	<artifactId>Software-Design</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>System-Design</name>
 	<description>Demo project for Spring Boot</description>
